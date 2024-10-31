@@ -1,0 +1,193 @@
+/* Color picker */
+.wp-picker-holder {
+	position: absolute;
+}
+
+/* Select 2 */
+.select2 {
+	min-width: 267px;
+}
+
+.sws-select-color-box:before {
+	width: 14px;
+	height: 14px;
+	border: 1px solid #585858;
+	display: inline-block;
+	content: '';
+	vertical-align: top;
+	margin: 2px 5px 0 0;
+}
+
+.sws-preloader-black:before {
+	background: #000;
+}
+
+.sws-preloader-light-grey:before {
+	background: #EEEEEE;
+}
+
+.sws-preloader-light-red:before {
+	background: #ff7c61;
+}
+
+.sws-preloader-blue:before {
+	background: #2c9ecc;
+}
+
+.sws-preloader-orange:before {
+	background: #e19a2e;
+}
+
+.sws-preloader-ligh-blue:before {
+	background: #429ace;
+}
+
+.sws-preloader-purple:before {
+	background: #635684;
+}
+
+.sws-preloader-dirty-blue:before {
+	background: #2e425d;
+}
+
+.sws-preloader-green:before {
+	background: #bbd140;
+}
+
+.sws-preloader-dark-blue:before {
+	background: #00172a;
+}
+
+.sws-preloader-soap-green:before {
+	background: #5db596;
+}
+
+.sws-preloader-light-green:before {
+	background: #c4ebe8;
+}
+
+.sws-preloader-pale-blue:before {
+	background: #e3f4fd;
+}
+
+.sws-preloader-pale-green:before {
+	background: #83af9b;
+}
+
+.sws-preloader-biege:before {
+	background: #fffce4;
+}
+
+.sws-preloader-pale-purple:before {
+	background: #6a516a;
+}
+
+.sws-preloader-salad-green:before {
+	background: #14d3a0;
+}
+
+.sws-preloader-sky-blue:before {
+	background: #66ceff;
+}
+
+.sws-preloader-ligh-gray:before {
+	background: #f6f5f3;
+}
+
+.sws-preloader-white:before {
+	background: #FFF;
+}
+
+.sws-preloader-gray-blue:before {
+	background: #676D89;
+}
+
+.sws-preloader-yellow:before {
+	background: #FFD87B;
+}
+
+.select2-selection__rendered .sws-select-color-box:before {
+	vertical-align: middle;
+	margin: -2px 5px 0 0;
+}
+
+.select2-selection {
+	outline: none;
+}
+
+.select2-results__option {
+	margin-bottom: 0;
+}
+
+.sws-rating-box a.sws-rating-button {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.sws-rating-box a i {
+	position: relative;
+	padding-right: 5px;
+}
+/* Options table */
+
+.form-table th {
+	min-width: 265px;
+}
+
+.sws-color-picker-inline .wp-picker-container {
+	position: relative;
+	top: 4px;
+	margin-left: 5px;
+	display: inline;
+}
+
+.form-table input.tog, 
+.form-table input[type=radio] {
+	margin-top: 0;
+}
+
+.sws-header-icon:before {
+	width: 30px;
+	height: 30px;
+	font-size: 30px;
+	margin-right: 5px;
+}
+
+.custom-preloader {
+	width: 160px;
+}
+
+.sws-invisible-input {
+	display: none;
+}
+
+.preloader-preview-box {
+	width: 267px;
+	padding: 10px;
+	border: 2px solid #CCC;
+	box-sizing: border-box;
+	background: #fff;
+	overflow: hidden;
+	-webkit-transition: height 0.2s;
+	   -moz-transition: height 0.2s;
+	    -ms-transition: height 0.2s;
+	     -o-transition: height 0.2s;
+	        transition: height 0.2s;
+}
+
+.preloader-preview-box img {
+	margin: 0 auto;
+	max-width: 100%;
+	display: block;
+}
+
+.wp-picker-container {
+	position: relative;
+}
+
+@media screen and ( min-width: 783px) {
+	.wp-picker-holder {
+		left: -290px;
+		top: -6px;
+	}
+} /* min-width: 783px */
